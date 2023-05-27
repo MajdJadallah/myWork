@@ -43,6 +43,9 @@ border-radius:50px ;
 #profileImage{
 width: 47px;
 }
+#mode{
+    width: 47px;
+    }
 .containerMenuList{
 justify-content: space-between;
 }
@@ -102,6 +105,7 @@ padding: 10px;
 #userName button{
 background-color: #00B5E8;
 border: none;
+border-radius: 100%;
 }
 #userNumber{
 width: 200px;
@@ -115,6 +119,7 @@ padding: 10px;
 #userNumber button{
 background-color: #FF2D20;
 border: none;
+border-radius: 100%;
 }
 #userDate{
 width: 200px;
@@ -128,6 +133,7 @@ padding: 10px;
 #userDate button{
 background-color: #90489C;
 border: none;
+border-radius: 100%;
 }
 #userLocation{
 width: 200px;
@@ -141,6 +147,7 @@ padding: 10px;
 #userLocation button{
 background-color: #FFB700;
 border: none;
+border-radius: 100%;
 }
 .add{
     border: none;
@@ -420,3 +427,90 @@ justify-content: space-between;
         margin-left: 0;
     }
 } */
+/*______________Dark Mode_____________________*/
+.dark{
+background-color: #1e2749;
+}
+.dark #nav{
+background-color: #404a6e;
+}
+.dark #menuList a{
+color: #deddf9;
+}
+.dark #logo{
+color: #deddf9;
+}
+.dark input{
+background-color: #404a6e;
+}
+.dark .text{
+background-color: #404a6e;
+}
+.dark ::placeholder{
+color: #deddf9;
+}
+.dark input[type="date"] {
+color: #deddf9;
+}
+.dark #userNumber{
+box-shadow: 0px 3px 24px #DEDDF9;
+}
+.dark #userDate{
+box-shadow: 0px 3px 24px #DEDDF9;
+}
+.dark #userLocation{
+box-shadow: 0px 3px 24px #DEDDF9;
+}
+.dark #userName{
+box-shadow: 0px 3px 24px #DEDDF9;
+}
+.dark .addLocation{
+box-shadow: 0px 3px 24px #DEDDF9;
+}
+.dark .addDate{
+box-shadow: 0px 3px 24px #DEDDF9;
+}
+.dark .addName{
+box-shadow: 0px 3px 24px #DEDDF9;
+}
+.dark .addNumber{
+box-shadow: 0px 3px 24px #DEDDF9;
+}
+.dark #done{
+background-color: #404a6e;
+box-shadow: 0px 3px 24px #DEDDF9;
+}
+.dark #done:hover{
+background-color:#DEDDF9;
+color:#404a6e;
+border: 2px solid #404a6e;
+}
+.dark .error{
+color: #deddf9;
+}
+.dark .footer-row {
+background-color: #404a6e;
+}
+.dark .footer-logo {
+color: #1e2749;
+}
+.dark ul a {
+color: #1e2749;
+font-weight: 900;
+}
+.dark .small-text {
+font-weight: 600;
+color: #1e2749;
+}
+.dark #divName{
+color: #deddf9;
+}
+.dark #divDate{
+color: #deddf9;
+}
+.dark #divNumber{
+color: #deddf9;
+}
+.dark #divLocation{
+color: #deddf9;
+}
